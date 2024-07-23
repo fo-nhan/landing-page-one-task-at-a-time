@@ -31,3 +31,52 @@ body {
     text-wrap: balance;
   }
 }
+
+.menu {
+  background-color: black;
+}
+
+.content {
+  min-height: 760px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    #200d42 36.21%,
+    #4f21a1 68.68%,
+    #a46edb 86.54%
+  );
+  position: relative;
+}
+
+.box {
+  width: 235px;
+  margin: 0 auto;
+  border: 0.1px solid #222222;
+  border-radius: 10px;
+  padding: 10px 13px;
+  font-size: 13px;
+}
+
+.box {
+  color: grey;
+}
+
+.box a {
+  color: white;
+  text-decoration: none;
+}
+
+.img-banner {
+  display: none;
+}
+
+@media only screen and (max-width: 810px) {
+  .img-banner {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+}
